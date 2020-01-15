@@ -15,3 +15,12 @@ The following are the basic things that you need to know about network ACLs:
 - A network ACL has separate inbound and outbound rules, and each rule can either allow or deny traffic.
 
 - Network ACLs are stateless, which means that responses to allowed inbound traffic are subject to the rules for outbound traffic (and vice versa).
+
+## Main components of a VPC we discussed:
+- VPC
+- Public subnet
+- Private subnet
+- Route table for both public subnet and private subnet.
+- Internet gateway to allow web access to the VPC (through the public subnet route table?)
+- Network ACL
+- Security Group
